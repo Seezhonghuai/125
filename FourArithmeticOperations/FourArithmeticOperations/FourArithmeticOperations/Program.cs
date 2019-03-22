@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FourArithmeticOperations
 {
-    class Program
+   public class Program
     {    
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             Console.WriteLine("随机生成10道四则运算");
             Console.ReadLine();

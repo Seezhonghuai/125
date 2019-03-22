@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourArithmeticOperations", "FourArithmeticOperations\FourArithmeticOperations.csproj", "{9DDB39B5-DB80-47E8-BEFD-BF90B615F683}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourArithmeticOperationsTests", "FourArithmeticOperationsTests\FourArithmeticOperationsTests.csproj", "{776E090A-7E3A-4FBF-BEAA-1032172C17B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9DDB39B5-DB80-47E8-BEFD-BF90B615F683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DDB39B5-DB80-47E8-BEFD-BF90B615F683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DDB39B5-DB80-47E8-BEFD-BF90B615F683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776E090A-7E3A-4FBF-BEAA-1032172C17B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776E090A-7E3A-4FBF-BEAA-1032172C17B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776E090A-7E3A-4FBF-BEAA-1032172C17B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776E090A-7E3A-4FBF-BEAA-1032172C17B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
