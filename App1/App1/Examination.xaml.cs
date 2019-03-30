@@ -26,5 +26,13 @@ namespace App1
         {
             this.InitializeComponent();
         }
+
+        //考试跳转
+       
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
     }
 }

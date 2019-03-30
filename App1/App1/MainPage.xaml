@@ -9,16 +9,65 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="错题记录" HorizontalAlignment="Left" Margin="58,71,0,0" VerticalAlignment="Top"/>
-        <Button Content="历史记录" HorizontalAlignment="Left" Margin="58,108,0,0" VerticalAlignment="Top"/>
-        <Button Content="成绩分享" HorizontalAlignment="Left" Margin="58,145,0,0" VerticalAlignment="Top"/>
-        <Button Content="帮助" HorizontalAlignment="Left" Margin="58,223,0,0" VerticalAlignment="Top"/>
-        <ComboBox Name="CB1" HorizontalAlignment="Left" Margin="582,390,0,0" VerticalAlignment="Top" Height="36" Width="272" RenderTransformOrigin="0.294,0"/>
-        <TextBlock HorizontalAlignment="Left" Margin="511,399,0,0" Text="选择年级" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button Content="开始考试" HorizontalAlignment="Left" Margin="58,565,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.032,0.156" Click="Button_Click_1"/>
-        <Button Content="开始练习" HorizontalAlignment="Left" Margin="58,500,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="566,88,0,0" Text="小明四则运算" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
-        <TextBox HorizontalAlignment="Left" Margin="58,10,0,0" Text="四则运算2.0" VerticalAlignment="Top"/>
+        <Button 
+            Content="错题记录"
+            HorizontalAlignment="Left"
+            Margin="58,71,0,0" 
+            VerticalAlignment="Top"/>
+        <Button 
+            Content="历史记录" 
+            HorizontalAlignment="Left"
+            Margin="58,108,0,0"
+            VerticalAlignment="Top"/>
+        <Button 
+            Content="成绩分享"
+            HorizontalAlignment="Left"
+            Margin="58,145,0,0" 
+            VerticalAlignment="Top"/>
+        <Button 
+            Content="帮助"
+            HorizontalAlignment="Left"
+            Margin="58,223,0,0"
+            VerticalAlignment="Top"/>
+        <ComboBox 
+            Name="CB1" 
+            HorizontalAlignment="Left"
+            Margin="582,390,0,0" 
+            VerticalAlignment="Top"
+            Height="36"
+            Width="272"
+            RenderTransformOrigin="0.294,0"  />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Margin="511,399,0,0"
+            Text="选择年级" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"/>
+        <Button 
+            Content="开始考试"
+            HorizontalAlignment="Left"
+            Margin="58,565,0,0"
+            VerticalAlignment="Top"
+            RenderTransformOrigin="1.032,0.156"
+            Click="Button_Click_1"/>
+        <Button 
+            Content="开始练习"
+            HorizontalAlignment="Left" 
+            Margin="58,500,0,0"
+            VerticalAlignment="Top"
+            Click="Button_Click"/>
+        <TextBlock 
+            HorizontalAlignment="Left"
+            Margin="566,88,0,0"
+            Text="小明四则运算"
+            TextWrapping="Wrap"
+            VerticalAlignment="Top"
+            FontSize="48"/>
+        <TextBox
+            HorizontalAlignment="Left"
+            Margin="58,10,0,0"
+            Text="四则运算2.0"
+            VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

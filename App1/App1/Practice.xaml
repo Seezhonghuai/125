@@ -18,6 +18,7 @@
         <ListBox HorizontalAlignment="Left" Height="234" Margin="62,670,0,0" VerticalAlignment="Top" Width="1332"/>
         <ComboBox HorizontalAlignment="Left" Margin="166,187,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.225,0.348" Height="43" Width="221"/>
         <Button Content="结束练习开始考试" HorizontalAlignment="Left" Margin="62,932,0,0" VerticalAlignment="Top"/>
+        <Button Content="返回" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Page>

@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="39,39,0,0" Text="四则运算考试" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Margin="159,34,0,0" Text="四则运算考试" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock HorizontalAlignment="Left" Margin="39,92,0,0" Text="倒计时" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"/>
         <Button Content="开始考试" HorizontalAlignment="Left" Margin="39,177,0,0" VerticalAlignment="Top" Width="90"/>
         <Button Content="生成题目" HorizontalAlignment="Left" Margin="39,214,0,0" VerticalAlignment="Top" Width="90"/>
@@ -19,6 +19,7 @@
         <Button Content="交卷" HorizontalAlignment="Left" Margin="39,901,0,0" VerticalAlignment="Top" Width="90"/>
         <ListBox HorizontalAlignment="Left" Height="249" Margin="39,251,0,0" VerticalAlignment="Top" Width="1359"/>
         <ListBox HorizontalAlignment="Left" Height="252" Margin="39,570,0,0" VerticalAlignment="Top" Width="1359"/>
+        <Button Content="返回" HorizontalAlignment="Left" Margin="32,13,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

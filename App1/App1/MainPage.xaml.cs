@@ -36,5 +36,10 @@ namespace App1
         {
             Frame.Navigate(typeof(Examination));
         }
+
+        private void CB1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
