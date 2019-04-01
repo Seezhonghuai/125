@@ -18,7 +18,11 @@
         <ListBox HorizontalAlignment="Left" Height="234" Margin="62,670,0,0" VerticalAlignment="Top" Width="1332"/>
         <ComboBox HorizontalAlignment="Left" Margin="166,187,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.225,0.348" Height="43" Width="221"/>
         <Button Content="结束练习开始考试" HorizontalAlignment="Left" Margin="62,932,0,0" VerticalAlignment="Top"/>
-        <Button Content="返回" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="返回首页" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <CheckBox Content="加法" HorizontalAlignment="Left" Margin="166,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.458,0.562"/>
+        <CheckBox Content="减法" HorizontalAlignment="Left" Margin="291,127,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.083,0.469"/>
+        <CheckBox Content="乘法" HorizontalAlignment="Left" Margin="416,128,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="除法" HorizontalAlignment="Left" Margin="541,128,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

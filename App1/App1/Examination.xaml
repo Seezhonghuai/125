@@ -19,7 +19,7 @@
         <Button Content="交卷" HorizontalAlignment="Left" Margin="39,901,0,0" VerticalAlignment="Top" Width="90"/>
         <ListBox HorizontalAlignment="Left" Height="249" Margin="39,251,0,0" VerticalAlignment="Top" Width="1359"/>
         <ListBox HorizontalAlignment="Left" Height="252" Margin="39,570,0,0" VerticalAlignment="Top" Width="1359"/>
-        <Button Content="返回" HorizontalAlignment="Left" Margin="32,13,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="返回首页" HorizontalAlignment="Left" Margin="32,13,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
 
     </Grid>
 </Page>
