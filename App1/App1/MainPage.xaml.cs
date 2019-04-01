@@ -27,19 +27,28 @@ namespace App1
             this.InitializeComponent();
         }
 
+        //跳转练习页面
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Practice));
         }
 
+        //跳转考试页面
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Examination));
+        }
+
+        private void CB1_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+
         }
 
         private void CB1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
+
+       
     }
 }

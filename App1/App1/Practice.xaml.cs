@@ -29,9 +29,17 @@ namespace App1
 
  
 
+        //返回首页
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage));
+        }
+
+
+        //结束练习，开始考试
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Examination));
         }
     }
 }

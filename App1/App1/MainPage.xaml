@@ -30,28 +30,40 @@
             Margin="58,223,0,0"
             VerticalAlignment="Top"/>
         <ComboBox 
-            Name="CB1" 
-            HorizontalAlignment="Left"
-            Margin="582,390,0,0" 
-            VerticalAlignment="Top"
-            Height="36"
-            Width="272"
-            RenderTransformOrigin="0.294,0"  />
+            Name ="CB1"
+                  HorizontalAlignment="Left"
+                  Margin="526,403,0,0" 
+                  VerticalAlignment="Top" Height="40" Width="260"
+                  VerticalContentAlignment="Center"
+                  SelectionChanged="CB1_SelectionChanged">
+            <ComboBoxItem Content="一年级"/>
+            <ComboBoxItem Content="二年级"/>
+            <ComboBoxItem Content="三年级"/>
+            <ComboBoxItem Content="四年级"/>
+            <ComboBoxItem Content="五年级"/>
+            <ComboBoxItem Content="六年级"/>
+        </ComboBox>
+
+
+
+
+
         <TextBlock
             HorizontalAlignment="Left"
-            Margin="511,399,0,0"
+            Margin="465,409,0,0"
             Text="选择年级" 
             TextWrapping="Wrap"
             VerticalAlignment="Top"/>
         <Button 
-            Content="开始考试"
+            Content="开始考试" Background="SkyBlue"
+
             HorizontalAlignment="Left"
             Margin="58,565,0,0"
             VerticalAlignment="Top"
             RenderTransformOrigin="1.032,0.156"
             Click="Button_Click_1"/>
         <Button 
-            Content="开始练习"
+            Content="开始练习" Background="SkyBlue"
             HorizontalAlignment="Left" 
             Margin="58,500,0,0"
             VerticalAlignment="Top"
